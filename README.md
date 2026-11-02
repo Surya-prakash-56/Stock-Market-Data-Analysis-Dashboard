@@ -60,3 +60,18 @@ Generates 5 distinct financial charts:
 * **yfinance (Optional)**: Fetching historical stock quotes online.
 
 ---
+
+---
+
+## 📂 Project Structure
+
+```text
+stock-market-analysis/
+│
+├── app.py                # Main Streamlit dashboard application
+├── stock_data.csv        # Pre-packaged 90-day realistic sample dataset
+├── requirements.txt      # Project dependencies
+└── README.md             # Project documentation and guide
+```
+
+---
