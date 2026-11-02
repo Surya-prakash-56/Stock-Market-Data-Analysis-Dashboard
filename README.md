@@ -24,3 +24,20 @@ This project is tailored for academic learning and mini-project submissions. It 
 * **Optional Live Market Fetching:** Built-in integration with `yfinance` to fetch live historical data for any ticker (e.g., `AAPL`, `MSFT`, `GOOGL`, `TSLA`, `INFY`).
 * **Interactive Date Filtering:** Dynamic date range picker that updates all summary statistics and charts instantaneously.
 * **Interactive Data Table:** Formatted view of all price figures, volume counts, and percentage returns with a one-click CSV export option.
+
+### 2. Statistical Analysis & Key Performance Indicators (KPIs)
+Calculates and displays critical stock metrics:
+* **Latest Closing Price:** The most recent closing valuation in the selected period.
+* **Highest Stock Price:** Peak price reached within the selected timeframe.
+* **Lowest Stock Price:** Lowest intraday price reached within the period.
+* **Average Closing Price:** Arithmetic mean of closing prices.
+* **Total Trading Volume:** Cumulative volume traded across all selected trading days.
+* **Overall Period Return (%):** Net percentage change between the starting and ending close prices.
+
+### 3. Data Visualizations (Matplotlib)
+Generates 5 distinct financial charts:
+1. **Historical Closing Price Trend (Line Chart):** Visualizes closing price movements over time with subtle gradient shading.
+2. **Daily Trading Volume (Bar Chart):** Displays daily volume with green/red color encoding indicating positive or negative daily closing movement.
+3. **Open vs. Close Price Comparison (Line Chart):** Compares opening versus closing levels to evaluate intraday price action.
+4. **Daily Returns Distribution (Histogram):** Plots the frequency distribution of daily price percentage returns along with the mean return reference line.
+5. **Monthly Average Closing Price (Bar Chart):** Aggregates daily closing prices by month with precise price labels on top of each bar.
