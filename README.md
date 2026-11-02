@@ -41,3 +41,22 @@ Generates 5 distinct financial charts:
 3. **Open vs. Close Price Comparison (Line Chart):** Compares opening versus closing levels to evaluate intraday price action.
 4. **Daily Returns Distribution (Histogram):** Plots the frequency distribution of daily price percentage returns along with the mean return reference line.
 5. **Monthly Average Closing Price (Bar Chart):** Aggregates daily closing prices by month with precise price labels on top of each bar.
+
+### 4. Returns & Performance Highlights
+* **Daily Percentage Return Formula:**
+  $$\text{Daily Return} = \left(\frac{\text{Current Close} - \text{Previous Close}}{\text{Previous Close}}\right) \times 100$$
+* **Best-Performing Day:** Highest single-day gain and date.
+* **Worst-Performing Day:** Steepest single-day decline and date.
+* **Average Daily Return:** Mean daily return percentage.
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.9+**: Core programming language.
+* **Pandas**: Data manipulation, cleaning, aggregation, and time series handling.
+* **Matplotlib**: Financial charting, histograms, and visualization.
+* **Streamlit**: Interactive web dashboard and user interface.
+* **yfinance (Optional)**: Fetching historical stock quotes online.
+
+---
