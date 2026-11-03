@@ -75,3 +75,63 @@ stock-market-analysis/
 ```
 
 ---
+
+## 📄 Dataset Format
+
+When uploading a custom CSV file, ensure your file contains the following columns:
+
+| Column Header | Data Type | Description |
+| :--- | :--- | :--- |
+| `Date` | Date / String (`YYYY-MM-DD`) | Date of the trading session |
+| `Open` | Float / Numeric | Stock price at market open |
+| `High` | Float / Numeric | Maximum stock price during the session |
+| `Low` | Float / Numeric | Minimum stock price during the session |
+| `Close` | Float / Numeric | Stock price at market close |
+| `Volume` | Integer / Numeric | Number of shares traded |
+
+*Note: The application automatically handles case-insensitive column headers and cleans invalid or missing records.*
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone or Navigate to the Project Directory
+```bash
+cd stock-market-analysis
+```
+
+### 2. (Recommended) Create a Virtual Environment
+* **On Windows (PowerShell):**
+  ```powershell
+  python -m venv venv
+  .\venv\Scripts\Activate.ps1
+  ```
+* **On macOS / Linux:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ How to Run the Application
+
+Start the Streamlit development server:
+
+```bash
+streamlit run app.py
+```
+
+Once executed, your default web browser will automatically open:
+```text
+http://localhost:8501
+```
+
+---
+
+
