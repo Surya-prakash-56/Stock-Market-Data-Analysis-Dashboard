@@ -131,6 +131,3 @@ http://localhost:8501
 
 ---
 
-## ⚠️ Educational Disclaimer
-
-This project is created strictly for **academic, educational, and learning purposes**. It is not intended for financial trading or investment advice. The bundled sample dataset contains synthetically generated prices labeled as sample data and should not be used as real-world market intelligence.
