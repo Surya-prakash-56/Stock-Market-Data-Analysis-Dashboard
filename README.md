@@ -13,7 +13,6 @@ This project is tailored for academic learning and mini-project submissions. It 
 * **Offline-Ready:** Works immediately out of the box using the included realistic sample dataset (`stock_data.csv`), while also providing flexibility to upload custom CSV files or query live ticker data via `yfinance`.
 * **Zero Configuration:** No API keys or paid accounts required.
 
-  
 ---
 
 ## 🚀 Key Features
@@ -58,8 +57,6 @@ Generates 5 distinct financial charts:
 * **Matplotlib**: Financial charting, histograms, and visualization.
 * **Streamlit**: Interactive web dashboard and user interface.
 * **yfinance (Optional)**: Fetching historical stock quotes online.
-
----
 
 ---
 
@@ -134,4 +131,6 @@ http://localhost:8501
 
 ---
 
+## ⚠️ Educational Disclaimer
 
+This project is created strictly for **academic, educational, and learning purposes**. It is not intended for financial trading or investment advice. The bundled sample dataset contains synthetically generated prices labeled as sample data and should not be used as real-world market intelligence.
